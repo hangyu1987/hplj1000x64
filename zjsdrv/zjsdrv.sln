@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zjsdrv", "zjsdrv.vcxproj", "{CCE0A245-EB39-C65F-6FFD-4EA568E1E3B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug(win7check)|Win32 = Debug(win7check)|Win32
+		Debug(win7check)|x64 = Debug(win7check)|x64
+		Release(win7free)|Win32 = Release(win7free)|Win32
+		Release(win7free)|x64 = Release(win7free)|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCE0A245-EB39-C65F-6FFD-4EA568E1E3B2}.Debug(win7check)|Win32.ActiveCfg = Release(free)|Win32
+		{CCE0A245-EB39-C65F-6FFD-4EA568E1E3B2}.Debug(win7check)|Win32.Build.0 = Release(free)|Win32
+		{CCE0A245-EB39-C65F-6FFD-4EA568E1E3B2}.Debug(win7check)|x64.ActiveCfg = Debug(check)|x64
+		{CCE0A245-EB39-C65F-6FFD-4EA568E1E3B2}.Debug(win7check)|x64.Build.0 = Debug(check)|x64
+		{CCE0A245-EB39-C65F-6FFD-4EA568E1E3B2}.Release(win7free)|Win32.ActiveCfg = Release(free)|Win32
+		{CCE0A245-EB39-C65F-6FFD-4EA568E1E3B2}.Release(win7free)|Win32.Build.0 = Release(free)|Win32
+		{CCE0A245-EB39-C65F-6FFD-4EA568E1E3B2}.Release(win7free)|x64.ActiveCfg = Release(free)|x64
+		{CCE0A245-EB39-C65F-6FFD-4EA568E1E3B2}.Release(win7free)|x64.Build.0 = Release(free)|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
