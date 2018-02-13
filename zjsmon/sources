@@ -7,9 +7,9 @@ MSC_WARNING_LEVEL=/W3
 !ENDIF
 MSC_WARNING_LEVEL=$(MSC_WARNING_LEVEL) /WX
 
-TARGETNAME=ddkpjlmon
-DLLDEF=pjlmon.def
-DLLORDER=pjlmon.prf
+TARGETNAME=zjsmon
+DLLDEF=zjsmon.def
+DLLORDER=zjsmon.prf
 
 TARGETTYPE=DYNLINK
 TARGETLIBS=$(SDK_LIB_PATH)\kernel32.lib \
@@ -21,9 +21,9 @@ DLLENTRY=_DllMainCRTStartup
 
 USE_MSVCRT=1
 
-SOURCES=pjlmon.rc   \
+SOURCES=zjsmon.rc   \
         util.c      \
-        pjlmon.c    \
+        zjsmon.c    \
         parsepjl.c  \
 
 TARGET_DESTINATION=retail
